@@ -1,0 +1,10 @@
+App(
+    appid="testsuite_installer",
+    name="TestSuite Installer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="testsuite_installer_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_category="Misc",
+    fap_icon="icon.png",
+)
